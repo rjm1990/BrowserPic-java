@@ -29,7 +29,7 @@ public class BrowserPic {
 
         ChromeDriver driver = new ChromeDriver(co);
 //        driver.
-        driver.get("https://localhost:8443/vmind/");
+        driver.get("https://localhost:8443/test/");
         System.out.println("----打开页面----");
 
         try {
@@ -62,7 +62,7 @@ public class BrowserPic {
 //        String filename2 = "D:\\c.png";
 //        screenshot(driver,filename2);
 
-        driver.get("https://localhost:8443/vmind/toViewDetail.do?plantformuserid=1958151109&isFollow=1&wholeNetworkType=null");
+        driver.get("https://localhost:8443/test/aaa.do?plantuserid=1958151109&isFollow=1&wholeNetworkType=null");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         System.out.println("----打开个人详情页面 sleep 10s----");
         Thread.sleep(10000);
