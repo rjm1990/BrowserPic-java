@@ -28,7 +28,8 @@ public class BrowserPic {
         co.setHeadless(true);
 
         ChromeDriver driver = new ChromeDriver(co);
-//        driver.
+        driver.manage().window().setSize(new Dimension(1920,1080));
+
         driver.get("https://localhost:8443/test/");
         System.out.println("----打开页面----");
 
