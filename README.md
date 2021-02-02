@@ -10,4 +10,14 @@
 	</dependency>
 ```
 
+-- 驱动的版本号和浏览器的版本号一致
+-- 在客户端执行，如果要在服务端的话，需要安装浏览器
+
 ## 在http上正常，https就不行，加上chromeOptions.addArguments("--ignore-certificate-errors");
+
+
+
+
+
+
+
